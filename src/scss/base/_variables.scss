@@ -1,0 +1,24 @@
+$primary: #c00 !default;
+$secondary: #ececec !default;
+$lightGray: #f9f9f9 !default;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1900px
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1610px
+);
+
+.cursor-pointer {
+        cursor: pointer;
+}

@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors and IDEs
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Mac OS X
+.DS_Store
+._.*
+._*
+
+# Windows
+Thumbs.db
+
+# Compiled output
+dist/
