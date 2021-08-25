@@ -2,9 +2,6 @@ const path = require("path");
 const fs = require("fs");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 
-//TODO: Let's get rid of this in the future.
-const Dotenv = require("dotenv-webpack");
-
 module.exports = {
   target: "web",
   entry: {
@@ -37,11 +34,8 @@ module.exports = {
     ],
   },
   plugins: [
-    new Dotenv({
-      path: path.resolve(__dirname, "conf/config.env"),
-    }),
     new HTMLWebpackPlugin({
-      title: "Form",
+      title: "Title_placeholder",
       inject: true,
       hash: true,
       scriptLoading: 'defer',
